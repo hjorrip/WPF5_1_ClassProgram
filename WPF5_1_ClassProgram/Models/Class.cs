@@ -12,7 +12,7 @@ namespace WPF5_1_ClassProgram.Models
         public int Id { get; set; }
 
         public string Name { get; set; }
-        public TypeOfClass TypeOfClass { get; set; }
+        public string TypeOfClass { get; set; }
         public ObservableCollection<Student> Students { get; set; }
 
         public Class()

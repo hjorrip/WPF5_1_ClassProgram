@@ -11,6 +11,5 @@ namespace WPF5_1_ClassProgram.Models
     {
         public DbSet<Class> Classes { get; set; }
         public DbSet<Student> Students { get; set; }
-        public DbSet<TypeOfClass> TypeOfClasses { get; set; }
     }
 }

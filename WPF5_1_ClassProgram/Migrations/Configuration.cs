@@ -20,21 +20,47 @@ namespace WPF5_1_ClassProgram.Migrations
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
 
-            context.TypeOfClasses.AddOrUpdate(
-                n => n.Name,
-                new TypeOfClass()
+
+            context.Classes.AddOrUpdate(
+                n => new { n.Name, n.TypeOfClass },
+                new Class()
                 {
-                    Name = "Forritun"
+                    Name = "WPF",
+                    TypeOfClass = "Forritun"
                 },
-                new TypeOfClass()
+                new Class()
                 {
-                    Name = "Kerfisstjórn"
+                    Name = "C#",
+                    TypeOfClass = "Forritun"
                 },
-                new TypeOfClass()
+                new Class()
                 {
-                    Name = "Graffísk hönnun"
+                    Name = "Cisco",
+                    TypeOfClass = "Kerfisstjórn"
                 }
                 );
+
+            context.SaveChanges();
+
+            context.Students.AddOrUpdate(
+                s => new {s.FirstName, s.LastName},
+                new Student()
+                {
+                    FirstName = "Hjörtur",
+                    LastName = "Pálsson",
+                    DateOfBirth = new DateTime(1987,08,22),
+                    ClassId = context.Classes.Where(c => c.Name.Equals("WPF")).FirstOrDefault().Id
+                },
+                new Student()
+                {
+                    FirstName = "Bjarnfreður",
+                    LastName = "Batman",
+                    DateOfBirth = new DateTime(1990,05,18),
+                    ClassId = context.Classes.Where(c => c.Name.Equals("C#")).FirstOrDefault().Id
+                }
+                );
+
+            context.SaveChanges();
 
         }
     }

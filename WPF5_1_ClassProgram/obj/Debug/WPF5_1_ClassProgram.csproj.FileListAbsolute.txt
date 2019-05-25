@@ -9,7 +9,6 @@ C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\bin\Debu
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\bin\Debug\MaterialDesignThemes.Wpf.xml
-C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\WPF5_1_ClassProgram.csprojAssemblyReference.cache
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\MainWindow.g.cs
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\App.g.cs
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\WPF5_1_ClassProgram_MarkupCompile.cache
@@ -23,3 +22,10 @@ C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debu
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\WPF5_1_ClassProgram.csproj.CopyComplete
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\WPF5_1_ClassProgram.exe
 C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\WPF5_1_ClassProgram.pdb
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\WPF5_1_ClassProgram.csprojAssemblyReference.cache
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\Windows\ChangeStudentWindow.g.cs
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\Windows\NewClassWindow.g.cs
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\Windows\NewStudentWindow.g.cs
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\Windows\ChangeStudentWindow.baml
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\Windows\NewClassWindow.baml
+C:\Users\hjorturpp\source\repos\WPF5_1_ClassProgram\WPF5_1_ClassProgram\obj\Debug\Windows\NewStudentWindow.baml

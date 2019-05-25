@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF5_1_ClassProgram"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
-        
+        <Menu Height="Auto" VerticalAlignment="Top">
+            <MenuItem Header="Skrá">
+                <MenuItem Header="Hætta" Click="menu_QuitClick"/>
+            </MenuItem>
+            <MenuItem Header="Nýskrá">
+                <MenuItem Header="Bekk" Click="menu_NewClassClick"/>
+                <MenuItem Header="Nemanda" Click="menu_NewStudentClick"/>
+            </MenuItem>
+            <MenuItem Header="Breyta">
+                <MenuItem Header="Nemanda" Click="menu_ChangeStudentClick"/>
+            </MenuItem>
+        </Menu>
+        <ComboBox ItemsSource="{Binding}" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="134,83,0,0" VerticalAlignment="Top" Width="180"/>
+        <ListBox x:Name="lbStudents" ItemsSource="{Binding Students}" DisplayMemberPath="FullName" BorderThickness="1" BorderBrush="Gray" HorizontalAlignment="Left" Height="177" Margin="134,151,0,0" VerticalAlignment="Top" Width="180" SelectionChanged="lbStudents_SelectionChanged"/>
+
     </Grid>
 </Window>
